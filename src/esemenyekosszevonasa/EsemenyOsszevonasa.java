@@ -17,6 +17,10 @@ public class EsemenyOsszevonasa extends javax.swing.JFrame {
     public EsemenyOsszevonasa() {
         initComponents();
         osszeg = 0;
+        frissit();
+    }
+
+    private void frissit() {
         jTextField1.setText(osszeg + " Ft");
     }
 
@@ -104,7 +108,7 @@ public class EsemenyOsszevonasa extends javax.swing.JFrame {
             osszeg -= 200;
         }
         
-        jTextField1.setText(osszeg + " Ft");
+        frissit();
     }//GEN-LAST:event_osszesito
 
     /**
