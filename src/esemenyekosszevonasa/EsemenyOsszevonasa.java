@@ -16,6 +16,8 @@ public class EsemenyOsszevonasa extends javax.swing.JFrame {
      */
     public EsemenyOsszevonasa() {
         initComponents();
+        osszeg = 0;
+        jTextField1.setText(osszeg + " Ft");
     }
 
     @SuppressWarnings("unchecked")
